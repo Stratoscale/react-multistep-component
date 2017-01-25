@@ -1,6 +1,6 @@
 {
   "name": "react-multistep-component2",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A multistep react component",
   "main": "dist/dist.js",
   "author": "@loverajoel",
@@ -13,6 +13,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
+    "babelify": "^7.2.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
