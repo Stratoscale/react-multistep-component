@@ -1,0 +1,90 @@
+Arguments: 
+  /Users/itai/.nvm/versions/node/v8.11.3/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js upgrade coc-prettier --latest --ignore-engines
+
+PATH: 
+  /Users/itai/.nvm/versions/node/v8.11.3/bin:/Users/itai/scripts:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/itai/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/Users/itai/.antigen/bundles/zsh-users/zsh-autosuggestions:/Users/itai/.antigen/bundles/zsh-users/zsh-completions:/Users/itai/.antigen/bundles/zsh-users/zsh-history-substring-search:/Users/itai/bin:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-multistep-component2",
+    "version": "0.0.7",
+    "description": "A multistep react component",
+    "main": "dist/dist.js",
+    "author": "@loverajoel",
+    "license": "ISC",
+    "scripts": {
+      "demos": "webpack-dev-server --progress --colors -d --watch",
+      "build": "./node_modules/.bin/webpack --config ./webpack.config.production.js --progress --colors",
+      "test": "karma start",
+      "test:dev": "npm run test -- --singleRun=false",
+      "prepublish": "npm run build"
+    },
+    "dependencies": {
+      "prop-types": "^15.5.10",
+      "react": "^15.0.0",
+      "react-dom": "^15.0.0"
+    },
+    "files": [
+      "/dist/*"
+    ],
+    "devDependencies": {
+      "coveralls": "^2.11.8",
+      "babelify": "^7.2.0",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015": "^6.6.0",
+      "babel-preset-react": "^6.5.0",
+      "css-loader": "^0.23.1",
+      "expect": "^1.15.2",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "istanbul-instrumenter-loader": "^0.2.0",
+      "karma": "^0.13.22",
+      "karma-chrome-launcher": "^0.2.2",
+      "karma-cli": "^0.1.2",
+      "karma-coverage": "^0.5.5",
+      "karma-mocha": "^0.2.2",
+      "karma-phantomjs-launcher": "^1.0.0",
+      "karma-sourcemap-loader": "^0.3.7",
+      "karma-webpack": "^1.7.0",
+      "mocha": "^2.4.5",
+      "node-sass": "^3.4.2",
+      "phantomjs": "^2.1.3",
+      "react-addons-test-utils": "^0.14.7",
+      "sass-loader": "^3.2.0",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.14",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "tags": [
+      "react",
+      "multistep",
+      "wizard"
+    ],
+    "keywords": [
+      "react",
+      "react-component",
+      "multistep",
+      "wizard",
+      "steps"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: No lockfile in this directory. Run `yarn install` to generate one.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:89389:13
+      at <anonymous>
